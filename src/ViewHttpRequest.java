@@ -11,7 +11,7 @@ public class ViewHttpRequest {
         DataInputStream is;
         DataOutputStream os;
 
-        server = new ServerSocket(8080);
+        server = new ServerSocket(8081);
         Socket socket = server.accept();
         is = new DataInputStream(socket.getInputStream());
 
